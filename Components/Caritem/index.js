@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, ImageBackground } from "react-native";
 import styles from "./styles";
+import StyledButton from "../StyledButton";
 
 const Caritem = () => {
   return (
@@ -15,6 +16,7 @@ const Caritem = () => {
           <Text style={styles.subtitle}>Starting at $89,995</Text>
         </View>
       </View>
+      <StyledButton />
     </View>
   );
 };
